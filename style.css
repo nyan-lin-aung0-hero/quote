@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quote {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    gap: 10px;
+    margin-top: 30px;
+}
+img {
+    width: 250px;
+}
+.button {
+    background-color: rgba(255, 0, 0, 0.5);
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+}
+.button>a {
+    display: inline-block;
+    margin: auto 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 1000;
+    color: aliceblue;
+}
+h3 {
+    font-weight: 800;
+    color: brown;
+    text-align: center;
+    font-size: 3rem;
+}
+
+@media (max-width: 750px) {
+    .quote {
+        grid-template-columns:auto auto;
+    }
+}
